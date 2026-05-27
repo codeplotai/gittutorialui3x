@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from rag import ask_rag5
+from rag import ask_rag
 
 app = Flask(__name__)
 
